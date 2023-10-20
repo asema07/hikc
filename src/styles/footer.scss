@@ -1,0 +1,47 @@
+.footer{
+  border-bottom: 1px solid #000000;
+  &__nav{
+    padding: 31px 0 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  &__menu{
+    display: flex;
+    column-gap: 60px;
+  }
+  &__link{
+    color: #051101;
+    font-size: 22px;
+    font-weight: 500;
+
+  }
+  &__media{
+    display: flex;
+    column-gap: 43px;
+    align-items: center;
+    &-title{
+      color: #051101;
+      font-size: 22px;
+      font-weight: 700;
+
+    }
+    &-icons{
+      display: flex;
+      column-gap: 30px;
+    }
+    &-icons{
+      width: 48px;
+      height: 48px;
+      background: #5CBE3A;
+      border-radius: 50%;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  &__line{
+    height: 34px;
+    background: #5CBE3A;
+  }
+}
