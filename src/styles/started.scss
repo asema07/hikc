@@ -18,3 +18,25 @@
     margin: 24px 0 35px;
   }
 }
+
+
+@media (max-width: 425px) {
+  .started__title{
+  font-size: 24px;
+  }
+  .started__text{
+    font-size: 8px;
+  }
+  .started__content{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 443px) {
+  .started__title{
+    font-size: 24px;
+  }
+  .started__text{
+    font-size: 8px;
+  }
+}

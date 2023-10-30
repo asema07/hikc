@@ -45,3 +45,30 @@
     background: #5CBE3A;
   }
 }
+
+
+@media (max-width: 992px) {
+  .footer__nav{
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .footer__menu{
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+  .footer__link{
+    width: calc(50% - 5px);
+    text-align: center;
+  }
+}
+@media (max-width: 375px) {
+  .footer__media{
+    column-gap: 40px;
+  }
+  .footer__media-title{
+    font-size: 18px;
+  }
+}

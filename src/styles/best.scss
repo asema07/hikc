@@ -11,6 +11,7 @@
     background: url("../assets/best.png") center/cover;
     border-radius: 10px;
     position: relative;
+    left: -100%;
     &::before {
       content: '';
       width: 100%;
@@ -27,10 +28,12 @@
     width: 45%;
     position: relative;
     &::before {
-      content: url("../assets/best-icon.svg");
+      content: '';
       position: absolute;
+      background: url("../assets/best-icon.svg");
       z-index: -1;
       left: -100px;
+
     }
   }
   &__title {
@@ -54,3 +57,39 @@
     line-height: 150%; /* 24px */
   }
 }
+
+@media (max-width: 1024px) {
+  .best__right{
+    &::before{
+      display: none;
+    }
+  }
+  .best__left{
+    left: 0;
+  }
+}
+@media (max-width: 992px){
+  .best__row{
+    column-gap: 60px;
+  }
+}
+@media (max-width: 768px){
+  .best__row{
+    flex-wrap: wrap;
+  }
+  .best__left, .best__right{
+    width: 100%;
+  }
+.best__left{
+  height: 450px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+}
+
+
+
+
+
+

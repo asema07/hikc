@@ -47,6 +47,11 @@ var swiper3 = new Swiper(".mySwiper3", {
     },
     mousewheel: true,
     keyboard: true,
+    breakpoints:{
+        425:{
+            spaceBetween:60
+        }
+    }
 });
 
 let burger = document.querySelector('.header__burger')
