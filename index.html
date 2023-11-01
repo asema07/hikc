@@ -26,6 +26,8 @@
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./src/styles/style.css">
 
 </head>
@@ -42,8 +44,8 @@
                     <a href="#" class="header__link active">Home</a>
                     <a href="./src/pages/product/index.html" class="header__link">Product</a>
                     <a href="./src/pages/about/index.html" class="header__link">About</a>
-                    <a href="./src" class="header__link">Review</a>
-                    <a href="#" class="header__link">Content</a>
+                    <a href="./src/pages/review/index.html" class="header__link">Review</a>
+
                 </div>
                 <button class="header__btn button">Shop now</button>
             </div>
@@ -201,6 +203,12 @@
         </div>
     </section>
 
+    <section style="padding-bottom: 100px">
+        <div class="container">
+            <video src="./src/assets/video.mp4" controls muted autoplay width="100%"></video>
+        </div>
+    </section>
+
     <section class="view">
         <div class="container">
             <div class="view__content">
@@ -229,6 +237,8 @@
             </div>
         </div>
     </section>
+    
+
 
     <section class="best">
         <div class="container">
@@ -438,7 +448,6 @@
     </section>
 
 
-
 </main>
 
 <footer class="footer">
@@ -512,7 +521,13 @@
     </form>
 </div>
 
+<a href="" class="up-page" data-aos="fade-left">
+    <img src="./src/assets/up%20(1).svg" alt="">
+</a>
 
+<script>
+    AOS.init();
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <script src="./src/js/index.js"></script>

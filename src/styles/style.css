@@ -11,6 +11,20 @@
   font-family: "Raleway", sans-serif;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
+.up-page {
+  position: fixed;
+  bottom: 150px;
+  right: 40px;
+}
+.up-page img {
+  width: 40px;
+  height: 40px;
+}
+
 .container {
   max-width: 1200px;
   width: 100%;
